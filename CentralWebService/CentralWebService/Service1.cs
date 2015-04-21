@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using System.Configuration;
+using ;
 
 namespace CentralWebService
 {
@@ -14,7 +15,8 @@ namespace CentralWebService
         public string GetStudentId()
         {
             String conString = System.Configuration.ConfigurationManager.ConnectionStrings["MyDatabaseConnectionString"].ConnectionString;
-            
+            int studentId = 0;
+            using (MySqlConnection )
         }
        
     }
