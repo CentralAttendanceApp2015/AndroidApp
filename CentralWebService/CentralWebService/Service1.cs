@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using System.Configuration;
-using ;
+using MySql.Data.MySqlClient;
 
 namespace CentralWebService
 {
@@ -16,7 +16,11 @@ namespace CentralWebService
         {
             String conString = System.Configuration.ConfigurationManager.ConnectionStrings["MyDatabaseConnectionString"].ConnectionString;
             int studentId = 0;
-            using (MySqlConnection )
+            using (MySqlConnection cnn = new MySqlConnection(conString))
+            {
+                cnn.Open();
+                String sql = String.Format("SELECT * FROM EMPLOYEE")
+            }
         }
        
     }
