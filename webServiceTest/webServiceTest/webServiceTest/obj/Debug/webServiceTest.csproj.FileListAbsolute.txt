@@ -1,0 +1,7 @@
+F:\tafe\vb projects\webServiceTest\webServiceTest\bin\webServiceTest.dll.config
+F:\tafe\vb projects\webServiceTest\webServiceTest\bin\webServiceTest.dll
+F:\tafe\vb projects\webServiceTest\webServiceTest\bin\webServiceTest.pdb
+F:\tafe\vb projects\webServiceTest\webServiceTest\bin\MySql.Data.dll
+F:\tafe\vb projects\webServiceTest\webServiceTest\obj\Debug\webServiceTest.csprojResolveAssemblyReference.cache
+F:\tafe\vb projects\webServiceTest\webServiceTest\obj\Debug\webServiceTest.dll
+F:\tafe\vb projects\webServiceTest\webServiceTest\obj\Debug\webServiceTest.pdb
